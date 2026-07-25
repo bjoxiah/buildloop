@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+*.log
+
+# per-developer, not shared
+.claude/settings.local.json
+
+# secrets — never intended to be in this repo
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+.npmrc
